@@ -128,6 +128,68 @@ main section{
 .skill{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); 
-    margin-bottom: 139px;
+    margin-bottom: 0px;
     border-radius: 5px;
+    color: rgba(117, 117, 117, 1)
+}
+.skill-title{
+    color:rgba(24, 24, 24, 1)
+}
+/* Resume section style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 113px;
+}
+.experience-description{
+    font-size: 16px;
+    color:rgba(117, 117, 117, 1)
+    
+}
+.experience-sub-title{
+    color:rgba(117, 117, 117, 1);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(71, 71, 71, 1)
+}
+.resume-colum{
+    color: rgba(71, 71, 71, 1)
+    font-size: 30px;
+    font-weight: bold;
+}
+.resume-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.resume-colum-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(71, 71, 71, 1)
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+}
+.footer-colum{
+    width: 50%;
+    padding-left:230px;
+}
+footer input[type="text"], footer textarea {
+    color: rgba(255, 255, 255, 1);
+    background-color: white;
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    padding : 18px 350px 18px 30px;
+    margin-bottom: 24px;
+    border:none;
 }
